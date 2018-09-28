@@ -1,0 +1,17 @@
+@tag
+Feature: Catalog Status
+	In order to quickly and easily manage my catalog of movies
+	As a movie owner
+	I want to determine the status of my movie catalog
+
+@tag1
+Scenario: Add a couple movies and validate the size of the catalog
+	Given That I want to quickly and easily manage my catalog of movies
+	When I add 2 movies to the catalog
+	Then I will have 2 movies in the catalog
+
+@tag2
+Scenario: Add no movies and validate the size of the catalog remains zero
+	Given That I want to quickly and easily manage my catalog of movies
+	When I add 0 movies to the catalog
+	Then I will have 0 movies in the catalog

@@ -1,0 +1,22 @@
+package feature.movie;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.mycompany.app.movie.Catalog;
+import com.mycompany.app.movie.Movie;
+
+import cucumber.api.java.en.Given;
+
+public class CatalogStatusSteps {
+	
+	Catalog catalog = new Catalog();
+	List<Movie> resultList = new ArrayList<Movie>();
+
+	@Given("That I want to quickly and easily manage my catalog of movies")
+	public void testAddMoviesToCatalog() {
+		
+	}
+	
+	
+}

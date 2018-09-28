@@ -1,0 +1,11 @@
+Feature: Catalog Status
+	In order to quickly and easily manage my catalog of movies
+	As a movie owner
+	I want to determine the status of my movie catalog
+
+Scenario: Add a couple movies and validate the size of the catalog
+	Given:
+	When:
+	Then:
+	
+Scenario: SCENARIO 2
