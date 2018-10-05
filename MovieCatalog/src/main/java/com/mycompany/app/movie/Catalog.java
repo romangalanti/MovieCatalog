@@ -1,11 +1,7 @@
 package com.mycompany.app.movie;
 
 	import java.util.ArrayList;
-	import java.util.Calendar;
-	import java.util.Comparator;
-	import java.util.Date;
 	import java.util.List;
-	import java.util.Collections;
 	
 	public class Catalog {
 		private final List<Movie> store = new ArrayList<Movie>();
