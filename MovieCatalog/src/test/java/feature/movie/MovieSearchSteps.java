@@ -16,6 +16,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class MovieSearchSteps {
+	
 	Catalog catalog = new Catalog();
 	List<Movie> resultList = new ArrayList<Movie>();
 

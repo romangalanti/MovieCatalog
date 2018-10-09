@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Catalog {
+
 	private final List<Movie> store = new ArrayList<Movie>();
 
 	public void addMovie(final Movie movie) {

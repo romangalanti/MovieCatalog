@@ -3,6 +3,7 @@ package com.mycompany.app.movie;
 import java.util.Date;
 
 public class Movie {
+
 	private final String title;
 	private final String producer;
 	private final Date releaseDate;
