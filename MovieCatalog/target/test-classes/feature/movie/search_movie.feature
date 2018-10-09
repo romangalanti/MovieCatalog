@@ -21,7 +21,7 @@ Feature: Movie Search
     |	'Out'   | 2       | 3       |
     	
     
-  @tag1
+  @tag2
   Scenario: Search movies by order
     #Given a movie with the title 'Inside Out', produced by 'Pixar', released 19 June 2015
     #And a movie with the title 'Out of Africa', produced by 'Universal Pictures', released 20 December 1985
